@@ -84,3 +84,10 @@ body:
     id: other
     attributes:
       label: Anything else?
+  - type: checkboxes
+    id: test-id
+    attributes:
+      label: What?
+      options:
+        - label: Test1
+        - label: Test2
