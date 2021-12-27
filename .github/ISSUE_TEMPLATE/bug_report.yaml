@@ -10,7 +10,6 @@ body:
         - Auth
         - Blog
         - Shop
-        - None
     validations:
       required: true
 
