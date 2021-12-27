@@ -1,0 +1,25 @@
+name: Bug Report
+description: Report a bug
+
+body:
+  - type: dropdown
+    id: django-app
+    attributes:
+      label: Which app are the source of the bug?
+      options:
+        - Auth
+        - Blog
+        - Shop
+        - None
+    validations:
+      required: true
+
+  - type: textarea
+    id: Expected-Behavior
+    attributes:
+      label: Expected Behavior
+      render: true
+      placeholder: Tell us what should happen
+    validations:
+      required: true
+
