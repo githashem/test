@@ -5,17 +5,45 @@ labels: bug
 body:
   - type: dropdown
     attributes:
-      label: Which app are the source of the bug?
+      label: Which app(s) are the source of the bug?
       options:
         - Auth
         - Blog
         - Shop
+        - Other
+      multiple: true
+    validations:
+      required: true
 
   - type: textarea
-    id: Expected-Behavior
     attributes:
       label: Expected Behavior
       placeholder: Tell us what should happen
     validations:
       required: true
 
+  - type: textarea
+    attributes:
+      label: Actual Behavior
+      placeholder: Tell us what happens instead
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Possible Fix
+      placeholder: Not obligatory, but suggest a fix or reason for the bug
+
+  - type: textarea
+    attributes:
+      label: Your Environment
+      placeholder: |
+        Include as many relevant details about the environment you experienced the bug in
+        * Version used:
+        * Browser Name and version:
+        * Operating System and version (desktop or mobile):
+        * Link to your project:
+
+  - type: textarea
+    attributes:
+      labels: Anything else?
