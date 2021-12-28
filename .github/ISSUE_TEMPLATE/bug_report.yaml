@@ -46,4 +46,4 @@ body:
 
   - type: textarea
     attributes:
-      labels: Anything else?
+      label: Anything else?
