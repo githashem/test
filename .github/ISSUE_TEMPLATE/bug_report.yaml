@@ -11,9 +11,6 @@ body:
         - Auth
         - Blog
         - Shop
-        - 'None'
-    validations:
-      required: true
 
   - type: textarea
     id: Expected-Behavior
