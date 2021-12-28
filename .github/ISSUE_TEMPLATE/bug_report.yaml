@@ -4,7 +4,6 @@ labels: bug
 
 body:
   - type: dropdown
-    id: django-app
     attributes:
       label: Which app are the source of the bug?
       options:
