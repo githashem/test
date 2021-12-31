@@ -8,6 +8,7 @@ body:
       label: Which django app(s) are the source of the bug?
       options:
         - Auth
+        - None
     validations:
       required: true
 
