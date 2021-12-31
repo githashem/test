@@ -1,6 +1,6 @@
 name: Bug Report
 description: Create a report to help us improve
-labels: ["bug"]
+labels: bug
 
 body:
   - type: dropdown
@@ -8,9 +8,6 @@ body:
       label: Which django app(s) are the source of the bug?
       options:
         - Auth
-        - 'none'
-    validations:
-      required: true
 
   - type: textarea
     attributes:
